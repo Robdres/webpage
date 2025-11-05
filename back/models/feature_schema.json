@@ -1,0 +1,29 @@
+{
+  "target": "chronic_kidney_disease_diagnosis",
+  "numeric": [
+    "age_years",
+    "personal_history_dyslipidemia",
+    "bmi_category",
+    "abdominal_perimeter",
+    "hdl_cholesterol_pathological",
+    "weight_kg",
+    "glomerular_filtration_rate",
+    "hba1c_elevated",
+    "female_specific_conditions",
+    "other_personal_history",
+    "ldl_cholesterol_pathological",
+    "family_history_overweight_obesity",
+    "gfr_proteinuria_relationship",
+    "drug_consumption",
+    "smoking_status",
+    "alcohol_consumption",
+    "exercise_30min_daily",
+    "diet_frequency",
+    "gender",
+    "family_history_diabetes",
+    "family_history_thyroid",
+    "family_history_cardiac_hypertension",
+    "family_history_cancer"
+  ],
+  "categorical": []
+}

@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "name": "kidneytool-client",
+  "version": "1.0.0",
+  "scripts": {
+    "bulk": "node bulkRunner.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --env=node --runInBand"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

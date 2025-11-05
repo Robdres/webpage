@@ -1,0 +1,81 @@
+{
+  "best_model": "XGBRegressor",
+  "results": [
+    {
+      "model": "LinearRegression",
+      "r2_test": 0.5296707198207274,
+      "r2_train": 0.4834962226553471,
+      "mae": 0.12481661555369464,
+      "rmse": 0.02418169525894284,
+      "best_params": {
+        "model__fit_intercept": true
+      }
+    },
+    {
+      "model": "Ridge",
+      "r2_test": 0.5253727809601547,
+      "r2_train": 0.48188155295165913,
+      "mae": 0.1264527618271165,
+      "rmse": 0.024402671183997564,
+      "best_params": {
+        "model__alpha": 96.99108521619944
+      }
+    },
+    {
+      "model": "Lasso",
+      "r2_test": -0.0017381300060141935,
+      "r2_train": 0.0,
+      "mae": 0.20737922705314007,
+      "rmse": 0.051503759620994655,
+      "best_params": {
+        "model__alpha": 3.745501188473625
+      }
+    },
+    {
+      "model": "RandomForest",
+      "r2_test": 0.982568169882261,
+      "r2_train": 0.9940709055616177,
+      "mae": 0.0036169122462993424,
+      "rmse": 0.0008962469943443727,
+      "best_params": {
+        "model__max_depth": 9,
+        "model__max_features": 1.0,
+        "model__min_samples_leaf": 2,
+        "model__min_samples_split": 7,
+        "model__n_estimators": 589
+      }
+    },
+    {
+      "model": "XGBRegressor",
+      "r2_test": 0.9832162650028973,
+      "r2_train": 0.9998188431624737,
+      "mae": 0.006489808067982283,
+      "rmse": 0.0008629255759966598,
+      "best_params": {
+        "model__colsample_bytree": 0.8136357677501768,
+        "model__learning_rate": 0.15060069169410512,
+        "model__max_depth": 3,
+        "model__min_child_weight": 3,
+        "model__n_estimators": 533,
+        "model__subsample": 0.7350460685614512
+      }
+    },
+    {
+      "model": "MLPRegressor",
+      "r2_test": 0.6446405906437152,
+      "r2_train": 0.9655416995982642,
+      "mae": 0.07481726691602847,
+      "rmse": 0.01827058893968112,
+      "best_params": {
+        "model__activation": "relu",
+        "model__alpha": 0.006511770255019445,
+        "model__hidden_layer_sizes": [
+          256,
+          128
+        ],
+        "model__learning_rate_init": 0.008731034258755935
+      }
+    }
+  ],
+  "r2_best": 0.9832162650028973
+}
