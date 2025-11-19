@@ -3,79 +3,92 @@
   "results": [
     {
       "model": "LinearRegression",
-      "r2_test": 0.5296707198207274,
-      "r2_train": 0.4834962226553471,
-      "mae": 0.12481661555369464,
-      "rmse": 0.02418169525894284,
+      "r2_test": 0.3154603074971216,
+      "r2_train": 0.6753156286504826,
+      "mae": 0.14022791890974995,
+      "rmse": 0.19113073877780015,
       "best_params": {
         "model__fit_intercept": true
-      }
+      },
+      "train_time_sec": 2.0685431957244873,
+      "memory_peak_mb": 1.8372936248779297
     },
     {
       "model": "Ridge",
-      "r2_test": 0.5253727809601547,
-      "r2_train": 0.48188155295165913,
-      "mae": 0.1264527618271165,
-      "rmse": 0.024402671183997564,
+      "r2_test": 0.30060262635102875,
+      "r2_train": 0.6522450536323885,
+      "mae": 0.15123761926172963,
+      "rmse": 0.19319381533157448,
       "best_params": {
-        "model__alpha": 96.99108521619944
-      }
+        "model__alpha": 60.29186751947844
+      },
+      "train_time_sec": 2.2100298404693604,
+      "memory_peak_mb": 1.8635644912719727
     },
     {
       "model": "Lasso",
-      "r2_test": -0.0017381300060141935,
-      "r2_train": 0.0,
-      "mae": 0.20737922705314007,
-      "rmse": 0.051503759620994655,
+      "r2_test": 0.34923727852235165,
+      "r2_train": 0.6090849786034322,
+      "mae": 0.14639946670040185,
+      "rmse": 0.18635564559199,
       "best_params": {
-        "model__alpha": 3.745501188473625
-      }
-    },
-    {
-      "model": "RandomForest",
-      "r2_test": 0.982568169882261,
-      "r2_train": 0.9940709055616177,
-      "mae": 0.0036169122462993424,
-      "rmse": 0.0008962469943443727,
-      "best_params": {
-        "model__max_depth": 9,
-        "model__max_features": 1.0,
-        "model__min_samples_leaf": 2,
-        "model__min_samples_split": 7,
-        "model__n_estimators": 589
-      }
+        "model__alpha": 0.020874558905144457
+      },
+      "train_time_sec": 2.2078821659088135,
+      "memory_peak_mb": 1.7883806228637695
     },
     {
       "model": "XGBRegressor",
-      "r2_test": 0.9832162650028973,
-      "r2_train": 0.9998188431624737,
-      "mae": 0.006489808067982283,
-      "rmse": 0.0008629255759966598,
+      "r2_test": 0.7262880917903917,
+      "r2_train": 0.9655355436625085,
+      "mae": 0.06688604865959065,
+      "rmse": 0.12085874131401511,
       "best_params": {
-        "model__colsample_bytree": 0.8136357677501768,
-        "model__learning_rate": 0.15060069169410512,
-        "model__max_depth": 3,
-        "model__min_child_weight": 3,
-        "model__n_estimators": 533,
-        "model__subsample": 0.7350460685614512
-      }
+        "model__subsample": 0.8,
+        "model__reg_lambda": 1,
+        "model__reg_alpha": 0,
+        "model__n_estimators": 100,
+        "model__min_child_weight": 7,
+        "model__max_depth": 7,
+        "model__learning_rate": 0.05,
+        "model__gamma": 0,
+        "model__colsample_bytree": 0.6
+      },
+      "train_time_sec": 8.575650453567505,
+      "memory_peak_mb": 1.8154535293579102
     },
     {
-      "model": "MLPRegressor",
-      "r2_test": 0.6446405906437152,
-      "r2_train": 0.9655416995982642,
-      "mae": 0.07481726691602847,
-      "rmse": 0.01827058893968112,
+      "model": "OrdinalRidge",
+      "r2_test": -2.3898305084745757,
+      "r2_train": 0.11330049261083741,
+      "mae": 0.05555555555555555,
+      "rmse": 0.23570226039551584,
       "best_params": {
-        "model__activation": "relu",
-        "model__alpha": 0.006511770255019445,
-        "model__hidden_layer_sizes": [
-          256,
-          128
-        ],
-        "model__learning_rate_init": 0.008731034258755935
-      }
+        "model__alpha": 5.620033785354685
+      },
+      "train_time_sec": 2.2157833576202393,
+      "memory_peak_mb": 1.8062801361083984
+    },
+    {
+      "model": "LogisticAT",
+      "r2_test": -3.5197740112994342,
+      "r2_train": 0.16256157635467983,
+      "mae": 0.07407407407407407,
+      "rmse": 0.2721655269759087,
+      "best_params": {
+        "model__alpha": 0.15359288658152992
+      },
+      "train_time_sec": 3.231140613555908,
+      "memory_peak_mb": 1.822732925415039
     }
   ],
-  "r2_best": 0.9832162650028973
+  "r2_best": 0.7262880917903917,
+  "class_counts": {
+    "0": 1425,
+    "1": 542,
+    "2": 154,
+    "3": 36
+  },
+  "train_size": 1624,
+  "test_size": 540
 }

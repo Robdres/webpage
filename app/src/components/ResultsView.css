@@ -375,48 +375,48 @@
     margin: 0;
     width: 100vw;
   }
-  
+
   .results-content {
     padding: 20px;
     width: 100%;
   }
-  
+
   .results-header {
     padding: 15px 20px;
     width: 100%;
   }
-  
+
   .results-header h2 {
     font-size: 1.3rem;
   }
-  
+
   .prediction-header {
     flex-direction: column;
     gap: 10px;
   }
-  
+
   .factor-item {
     grid-template-columns: 1fr;
     gap: 8px;
     text-align: center;
   }
-  
+
   .summary-grid {
     grid-template-columns: 1fr;
     gap: 15px;
   }
-  
+
   .results-actions {
     flex-direction: column;
     padding: 20px;
     width: 100%;
   }
-  
+
   .pdf-download-section {
     margin: 20px;
     padding: 20px;
   }
-  
+
   .pdf-download-section h3 {
     font-size: 1.3rem;
   }
@@ -443,4 +443,4 @@
 .results-container::-webkit-scrollbar-thumb:hover,
 .results-content::-webkit-scrollbar-thumb:hover {
   background: var(--text-dark);
-} 
+}
